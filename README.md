@@ -57,7 +57,7 @@ Project_5_Cancer_Variant_Analysis/
 - Checked for duplicates → none found
 
 ### 2. Data Cleaning
-- Renamed all column headers to lowercase snake_case
+- Renamed all column headers to lowercase, e.g.: Variant_Type → variant_type
 - Verified categorical columns for value consistency (no typos or unexpected values found)
 
 ### 3. Dataset Overview (EDA)
@@ -109,9 +109,10 @@ These limitations do not affect the SQL techniques demonstrated but should be co
 
 The dashboard includes 4 charts:
 
-1. **Gene Risk Summary** — horizontal bar chart of top 10 genes by pathogenic variant count
+1. **Population Frequency vs Mutation Severity** — scatter plot of population AF vs CADD score, colored by clinical significance
 2. **Conflicting Risk Signals by Gene** — grouped bar chart showing computational vs clinical disagreements for top 6 genes
-3. **Mutation Severity vs Pathogenic Frequency** — scatter plot of avg CADD score vs pathogenic count per gene
-4. **Population Frequency vs Mutation Severity** — scatter plot of population AF vs CADD score, colored by clinical significance
+3. **Gene Risk Summary** — horizontal bar chart of top 10 genes by pathogenic variant count
+4. **Mutation Severity vs Pathogenic Frequency** — scatter plot of avg CADD score vs pathogenic count per gene
+
 
 ![Cancer Genomics Variant Analysis](Cancer_Genomics_Variant_Analysis.png)
