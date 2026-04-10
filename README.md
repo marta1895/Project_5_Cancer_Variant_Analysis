@@ -1,7 +1,9 @@
 # Project 5: Cancer Variant Analysis
 
 ## Overview
+
 This project explores a cancer variant prioritization dataset using SQL (PostgreSQL / DBeaver) and Tableau. The analysis covers data cleaning, exploratory analysis, and business-driven questions around gene mutation patterns, clinical risk classification, and the reliability of computational prediction tools.
+
 > **Dataset note:** This dataset is synthetically generated for machine learning purposes. Some findings — such as genes appearing across all 22 chromosomes — are not biologically realistic. All queries are written to demonstrate analytical logic rather than draw real clinical conclusions.
 
 ---
@@ -112,4 +114,4 @@ The dashboard includes 4 charts:
 3. **Mutation Severity vs Pathogenic Frequency** — scatter plot of avg CADD score vs pathogenic count per gene
 4. **Population Frequency vs Mutation Severity** — scatter plot of population AF vs CADD score, colored by clinical significance
 
-> Tableau Public link: *(add after publishing)*
+![Cancer Genomics Variant Analysis](Cancer_Genomics_Variant_Analysis.png)
