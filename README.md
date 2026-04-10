@@ -113,12 +113,3 @@ The dashboard includes 4 charts:
 4. **Population Frequency vs Mutation Severity** — scatter plot of population AF vs CADD score, colored by clinical significance
 
 > Tableau Public link: *(add after publishing)*
-
----
-
-## How to Run
-
-1. Create a PostgreSQL database in DBeaver
-2. Run the `CREATE TABLE` statement at the top of `canser_variants_analysis.sql`
-3. Import `cancer_variant_prioritization_dataset.csv` via right-click → Import Data
-4. Run queries sequentially — each section is clearly commented
